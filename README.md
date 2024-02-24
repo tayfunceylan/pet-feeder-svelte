@@ -12,6 +12,12 @@ This is a rewrite of my [Pet Feeder](https://github.com/tayfunceylan/pet-feeder)
 - PostgreSQL (Database)
 - Redis (Cache)
 
+## New Goals
+
+- This time this App should be designed in a way that other people can be invited to use it too
+- Use Svelte for the frontend
+- Use Shadcn Svelte and Tailwind CSS
+
 ## Development
 
 Run `docker-compose up` to start the development server.
