@@ -1,14 +1,16 @@
 <script lang="ts">
+  import Logo from '$lib/components/my/logo/logo.svelte';
   import { Button } from '$lib/components/ui/button';
   import * as Card from '$lib/components/ui/card';
   import { Input } from '$lib/components/ui/input';
   import { Label } from '$lib/components/ui/label';
 </script>
 
-<!-- center card -->
-<Card.Root class="w-[350px] mx-auto mt-20">
+<Card.Root class="mx-auto mt-32 w-[350px]">
   <Card.Header>
-    <Card.Title>Login</Card.Title>
+    <Card.Title>
+      <Logo state="loaded" />
+    </Card.Title>
     <!-- <Card.Description>Deploy your new project in one-click.</Card.Description> -->
   </Card.Header>
   <Card.Content>
