@@ -8,5 +8,6 @@
         "batisteo.vscode-django",
         "kevinrose.vsc-python-indent",
         "ms-azuretools.vscode-docker",
+        "visualstudioexptteam.vscodeintellicode",
     ]
 }
